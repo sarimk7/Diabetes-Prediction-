@@ -3,9 +3,9 @@ from joblib import load
 import pandas as pd
 
 # Load trained model pipeline
-model = load("/Users/sarimkazmi/Downloads/LogisticRegression_diabetes_model.joblib")
+model = load("model.joblib")
 
-st.title("Diabetes Prediction App")
+st.title("Diabetes Prediction ")
 st.write("Enter patient information below:")
 
 # Input fields
